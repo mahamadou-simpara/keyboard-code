@@ -1,0 +1,36 @@
+*{
+ box-sizing: border-box;
+}
+body{
+ margin: 0;
+ width: 100vw;
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: #d6d2d2;
+ 
+}
+#container{
+ display: flex;
+ gap: 2rem;
+ flex-wrap: wrap;
+ 
+}
+
+.square{
+ background-color: rgb(255, 255, 255);
+ padding: 1rem 2.5rem;
+ border: 1px;
+ position: relative;
+ text-align: center;
+}
+.square small{
+ position: absolute;
+ top: -24px;
+ opacity: 30%;
+ left: 10px;
+}
+button{
+padding: 1rem 2.5rem;
+}
